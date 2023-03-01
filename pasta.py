@@ -1,5 +1,5 @@
 from order import Order
 
 class Pasta(Order):
-    def __init__(self, order: str, price: int) -> None:
-        super().__init__(order, price)
+    def __init__(self):
+        super().__init__("pasta", 12)

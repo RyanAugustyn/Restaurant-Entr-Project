@@ -1,0 +1,42 @@
+
+Current transaction count: 1
+        Dish Ordered: pizza
+        Store Number: 1
+        Item Price: 17
+        Combined Daily Income: 17
+
+
+Current transaction count: 2
+        Dish Ordered: pasta
+        Store Number: 1
+        Item Price: 12
+        Combined Daily Income: 29
+
+
+Current transaction count: 3
+        Dish Ordered: salad
+        Store Number: 2
+        Item Price: 10
+        Combined Daily Income: 39
+
+
+Current transaction count: 4
+        Dish Ordered: pizza
+        Store Number: 2
+        Item Price: 17
+        Combined Daily Income: 56
+
+
+Current transaction count: 5
+        Dish Ordered: pizza
+        Store Number: 3
+        Item Price: 17
+        Combined Daily Income: 73
+
+
+Current transaction count: 6
+        Dish Ordered: pizza
+        Store Number: 3
+        Item Price: 17
+        Combined Daily Income: 90
+
