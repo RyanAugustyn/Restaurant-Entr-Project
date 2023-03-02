@@ -9,13 +9,8 @@ class Franchise:
 
     def place_order(self):
         print(f"\nWelcome to Lou Malnati's Pizza, Location #{self.location_number}\n")
-        # user_input = Verify.verify_food_input(input("Would you like to order '1' for Pizza, '2' for Pasta, '3' or Salad?\n"))       
-        # user_input = self.input_to_item(user_input)
-        # order = Order_Factory.create_order(user_input)
         order = self.customer_order()
         log.log_transaction(order, self.location_number)
-
-
 
     #changes user input into chosen menu item
     def input_to_item(self, user_input):
@@ -37,13 +32,3 @@ class Franchise:
                 order_list.append(order)
 
         return order_list
-
-            
-
-
-        
-
-#Welcome user, what items would you like to order?
-#Loop to keep offering 3 options, a finished option
-#that itemized order, maybe showing 2X Pizza, 1 Pasta, etc, that is what is put into log
-#

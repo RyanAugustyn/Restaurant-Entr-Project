@@ -1,5 +1,3 @@
-
-
 class Logger:
     def __init__(self) -> None:
         self.transaction_count = 0
@@ -22,10 +20,6 @@ class Logger:
         Item Price: {order.price}
         Combined Daily Income: {daily_sales}\n\n""")
         doc.close()
-
-
-
-
 
 log = Logger()
 
