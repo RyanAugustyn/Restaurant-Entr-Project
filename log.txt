@@ -1,0 +1,77 @@
+
+Purchase at Lou Malnati's store # 1
+        Current transaction count: 1
+        Dish Ordered: pizza
+        Item Price: 17
+        Combined Daily Income: 17
+
+
+Purchase at Lou Malnati's store # 1
+        Current transaction count: 2
+        Dish Ordered: pizza
+        Item Price: 17
+        Combined Daily Income: 34
+
+
+Purchase at Lou Malnati's store # 1
+        Current transaction count: 2
+        Dish Ordered: pizza
+        Item Price: 17
+        Combined Daily Income: 51
+
+
+Purchase at Lou Malnati's store # 2
+        Current transaction count: 3
+        Dish Ordered: pizza
+        Item Price: 17
+        Combined Daily Income: 68
+
+
+Purchase at Lou Malnati's store # 2
+        Current transaction count: 4
+        Dish Ordered: pizza
+        Item Price: 17
+        Combined Daily Income: 85
+
+
+Purchase at Lou Malnati's store # 3
+        Current transaction count: 5
+        Dish Ordered: pizza
+        Item Price: 17
+        Combined Daily Income: 102
+
+
+Purchase at Lou Malnati's store # 3
+        Current transaction count: 5
+        Dish Ordered: pasta
+        Item Price: 12
+        Combined Daily Income: 114
+
+
+Purchase at Lou Malnati's store # 3
+        Current transaction count: 5
+        Dish Ordered: salad
+        Item Price: 10
+        Combined Daily Income: 124
+
+
+Purchase at Lou Malnati's store # 3
+        Current transaction count: 6
+        Dish Ordered: pizza
+        Item Price: 17
+        Combined Daily Income: 141
+
+
+Purchase at Lou Malnati's store # 3
+        Current transaction count: 6
+        Dish Ordered: pasta
+        Item Price: 12
+        Combined Daily Income: 153
+
+
+Purchase at Lou Malnati's store # 3
+        Current transaction count: 6
+        Dish Ordered: salad
+        Item Price: 10
+        Combined Daily Income: 163
+

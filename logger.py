@@ -8,14 +8,24 @@ class Logger:
 
     def log_transaction(self, order, store_number):
         self.transaction_count += 1
-        self.daily_sales += order.price
+        for item in order:
+            self.daily_sales += item.price
+            self.append_to_log(store_number, self.transaction_count, item, self.daily_sales)
+        
+
+
+    def append_to_log(self, store_number, transaction_count, order, daily_sales):
         doc = open("log.txt", "a")
-        doc.write(f"""\nCurrent transaction count: {self.transaction_count}
+        doc.write(f"""\nPurchase at Lou Malnati's store # {store_number}
+        Current transaction count: {transaction_count}
         Dish Ordered: {order.dish_name}
-        Store Number: {store_number}
         Item Price: {order.price}
-        Combined Daily Income: {self.daily_sales}\n\n""")
+        Combined Daily Income: {daily_sales}\n\n""")
         doc.close()
+
+
+
+
 
 log = Logger()
 
